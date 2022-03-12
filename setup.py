@@ -49,11 +49,11 @@ with open("README.rst") as fh:
 
 setup(
     name="zibalzeep",
-    version="4.1.0",
-    description="A modern/fast Python SOAP client based on lxml / requests",
+    version="4.1.1",
+    description="A modern/fast Python SOAP client based on lxml / requests/ for Mellat Bank",
     long_description=long_description,
-    author="Michael van Tellingen",
-    author_email="michaelvantellingen@gmail.com",
+    author="Iman Ashoori",
+    author_email="imanashoorii.77@gmail.com",
     url="https://docs.python-zeep.org",
     python_requires=">=3.6",
     install_requires=install_requires,
