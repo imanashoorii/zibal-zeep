@@ -20,7 +20,7 @@ retest:
 	pytest -vvv --lf
 
 coverage:
-	pytest --cov=zeep --cov-report=term-missing --cov-report=html
+	pytest --cov=zibalzeep --cov-report=term-missing --cov-report=html
 
 format:
 	isort src tests setup.py

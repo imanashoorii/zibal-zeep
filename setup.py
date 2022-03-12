@@ -48,7 +48,7 @@ with open("README.rst") as fh:
     )
 
 setup(
-    name="zeep",
+    name="zibalzeep",
     version="4.1.0",
     description="A modern/fast Python SOAP client based on lxml / requests",
     long_description=long_description,
@@ -66,7 +66,7 @@ setup(
     },
     entry_points={},
     package_dir={"": "src"},
-    packages=["zeep"],
+    packages=["zibalzeep"],
     include_package_data=True,
     license="MIT",
     classifiers=[

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [tool.coverage.run]
 branch = true
-source = ["zeep"]
+source = ["zibalzeep"]
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages/"]
@@ -18,7 +18,7 @@ multi_line_output = 3
 include_trailing_comma = true
 balanced_wrapping = true
 default_section = "THIRDPARTY"
-known_first_party = ["zeep", "tests"]
+known_first_party = ["zibalzeep", "tests"]
 use_parentheses = true
 
 [tool.pytest.ini_options]
