@@ -3,8 +3,8 @@ import pickle
 import pytest
 from lxml.etree import QName
 
-from zeep import xsd
-from zeep.xsd import valueobjects
+from zibalzeep import xsd
+from zibalzeep.xsd import valueobjects
 
 
 def test_simple_args():

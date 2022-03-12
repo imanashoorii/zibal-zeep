@@ -2,8 +2,8 @@ import pytest
 from lxml import etree
 
 from tests.utils import assert_nodes_equal, load_xml, render_node
-from zeep import xsd
-from zeep.settings import Settings
+from zibalzeep import xsd
+from zibalzeep.settings import Settings
 
 
 def test_build_occurs_1():

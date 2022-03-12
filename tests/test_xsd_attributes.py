@@ -3,7 +3,7 @@ from collections import OrderedDict
 from lxml import etree
 
 from tests.utils import assert_nodes_equal, load_xml
-from zeep import xsd
+from zibalzeep import xsd
 
 
 def test_anyattribute():

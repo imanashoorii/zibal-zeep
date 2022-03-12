@@ -4,8 +4,8 @@ import pytest
 import requests_mock
 
 from tests.utils import load_xml
-from zeep import client, xsd
-from zeep.exceptions import Error
+from zibalzeep import client, xsd
+from zibalzeep.exceptions import Error
 
 
 def test_bind():

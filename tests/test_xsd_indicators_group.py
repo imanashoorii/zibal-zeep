@@ -2,7 +2,7 @@ import pytest
 from lxml import etree
 
 from tests.utils import assert_nodes_equal, load_xml, render_node
-from zeep import xsd
+from zibalzeep import xsd
 
 
 def test_build_objects():

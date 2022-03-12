@@ -2,9 +2,9 @@ import asyncio
 import httpx
 import time
 
-import zeep
+import zibalzeep
 
-from zeep.transports import AsyncTransport
+from zibalzeep.transports import AsyncTransport
 
 
 def run_async():
@@ -13,7 +13,7 @@ def run_async():
 
     loop = asyncio.get_event_loop()
 
-    client = zeep.AsyncClient("http://localhost:8000/?wsdl")
+    client = zibalzeep.AsyncClient("http://localhost:8000/?wsdl")
 
     tasks = [
         client.service.slow_request("request-1"),  # takes 1 sec
@@ -33,8 +33,8 @@ def run_async():
 def run_sync():
     print("sync example")
     print("============")
-    transport = zeep.Transport(cache=None)
-    client = zeep.Client("http://localhost:8000/?wsdl", transport=transport)
+    transport = zibalzeep.Transport(cache=None)
+    client = zibalzeep.Client("http://localhost:8000/?wsdl", transport=transport)
 
     st = time.time()
     result = [

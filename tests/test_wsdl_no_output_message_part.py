@@ -1,6 +1,6 @@
 from io import StringIO
 
-from zeep.wsdl import wsdl
+from zibalzeep.wsdl import wsdl
 
 
 def test_wsdl_parses_operations_with_no_output():

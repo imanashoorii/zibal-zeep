@@ -4,9 +4,9 @@ import pytest
 from lxml import etree
 
 from tests.utils import assert_nodes_equal, load_xml, render_node
-from zeep import xsd
-from zeep.exceptions import ValidationError, XMLParseError
-from zeep.helpers import serialize_object
+from zibalzeep import xsd
+from zibalzeep.exceptions import ValidationError, XMLParseError
+from zibalzeep.helpers import serialize_object
 
 
 def test_choice_element():

@@ -1,4 +1,4 @@
-from zeep.xsd import printer
+from zibalzeep.xsd import printer
 
 
 def test_dict():

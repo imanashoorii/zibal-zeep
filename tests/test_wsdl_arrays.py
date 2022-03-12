@@ -4,7 +4,7 @@ import pytest
 from lxml import etree
 
 from tests.utils import DummyTransport, assert_nodes_equal, load_xml, render_node
-from zeep import xsd
+from zibalzeep import xsd
 
 
 @pytest.fixture(scope="function")

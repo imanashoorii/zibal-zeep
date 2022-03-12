@@ -1,7 +1,7 @@
 from __future__ import print_function
-import zeep
+import zibalzeep
 
-client = zeep.Client(
+client = zibalzeep.Client(
     wsdl='http://www.webservicex.net/barcode.asmx?WSDL')
 
 with client.settings(strict=True):

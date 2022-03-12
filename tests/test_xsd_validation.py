@@ -1,7 +1,7 @@
 import pytest
 
 from tests.utils import assert_nodes_equal, load_xml, render_node
-from zeep import exceptions, xsd
+from zibalzeep import exceptions, xsd
 
 
 def test_validate_element_value():

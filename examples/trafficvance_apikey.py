@@ -1,4 +1,4 @@
-from zeep import Client, xsd
+from zibalzeep import Client, xsd
 
 API_KEY_TEST = 'YOUR_OWN_API_KEY'
 WSDL_TEST = 'https://apitest.trafficvance.com/?v3=system.wsdl'

@@ -2,7 +2,7 @@ import pytest
 from lxml import etree
 
 from tests.utils import assert_nodes_equal, load_xml, render_node
-from zeep import exceptions, xsd
+from zibalzeep import exceptions, xsd
 
 
 def test_xml_xml_single_node():

@@ -1,7 +1,7 @@
 from io import StringIO
 
 from tests.utils import assert_nodes_equal, load_xml
-from zeep.wsdl import wsdl
+from zibalzeep.wsdl import wsdl
 
 
 ##

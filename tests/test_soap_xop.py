@@ -6,10 +6,10 @@ from pretend import stub
 from requests_toolbelt.multipart.decoder import MultipartDecoder
 
 from tests.utils import assert_nodes_equal
-from zeep import Client
-from zeep.transports import Transport
-from zeep.wsdl.attachments import MessagePack
-from zeep.wsdl.messages import xop
+from zibalzeep import Client
+from zibalzeep.transports import Transport
+from zibalzeep.wsdl.attachments import MessagePack
+from zibalzeep.wsdl.messages import xop
 
 
 def test_rebuild_xml():

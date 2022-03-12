@@ -1,6 +1,6 @@
 from lxml import etree
 
-from zeep.xsd import Schema
+from zibalzeep.xsd import Schema
 
 
 def test_parse_response():

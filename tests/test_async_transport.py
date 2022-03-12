@@ -3,9 +3,9 @@ from lxml import etree
 from pretend import stub
 from pytest_httpx import HTTPXMock
 
-from zeep import exceptions
-from zeep.cache import InMemoryCache
-from zeep.transports import AsyncTransport
+from zibalzeep import exceptions
+from zibalzeep.cache import InMemoryCache
+from zibalzeep.transports import AsyncTransport
 
 
 @pytest.mark.requests

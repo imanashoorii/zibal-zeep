@@ -6,10 +6,10 @@ from lxml import etree
 from lxml.etree import QName
 
 from tests.utils import load_xml
-from zeep import ns, wsse
-from zeep.exceptions import SignatureVerificationFailed
-from zeep.wsse import signature
-from zeep.wsse.signature import xmlsec as xmlsec_installed
+from zibalzeep import ns, wsse
+from zibalzeep.exceptions import SignatureVerificationFailed
+from zibalzeep.wsse import signature
+from zibalzeep.wsse.signature import xmlsec as xmlsec_installed
 
 KEY_FILE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "cert_valid.pem")
 KEY_FILE_PW = os.path.join(

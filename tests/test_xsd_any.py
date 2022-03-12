@@ -4,8 +4,8 @@ import pytest
 from lxml import etree
 
 from tests.utils import assert_nodes_equal, load_xml, render_node
-from zeep import xsd
-from zeep.exceptions import ValidationError
+from zibalzeep import xsd
+from zibalzeep.exceptions import ValidationError
 
 
 def get_any_schema():

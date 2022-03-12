@@ -7,9 +7,9 @@ from lxml import etree
 from pretend import stub
 
 from tests.utils import DummyTransport, assert_nodes_equal
-from zeep import Client, Settings, wsdl
-from zeep.exceptions import DTDForbidden, EntitiesForbidden
-from zeep.transports import Transport
+from zibalzeep import Client, Settings, wsdl
+from zibalzeep.exceptions import DTDForbidden, EntitiesForbidden
+from zibalzeep.transports import Transport
 
 
 @pytest.mark.requests

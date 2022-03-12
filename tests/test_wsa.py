@@ -4,8 +4,8 @@ from io import StringIO
 from pretend import stub
 
 from tests.utils import DummyTransport, assert_nodes_equal
-from zeep import Client, wsa, wsdl
-from zeep.settings import Settings
+from zibalzeep import Client, wsa, wsdl
+from zibalzeep.settings import Settings
 
 
 def test_require_wsa(recwarn, monkeypatch):

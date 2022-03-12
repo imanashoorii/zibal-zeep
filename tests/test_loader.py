@@ -2,9 +2,9 @@ import pytest
 from pytest import raises as assert_raises
 
 from tests.utils import DummyTransport
-from zeep.exceptions import DTDForbidden, EntitiesForbidden
-from zeep.loader import parse_xml
-from zeep.settings import Settings
+from zibalzeep.exceptions import DTDForbidden, EntitiesForbidden
+from zibalzeep.loader import parse_xml
+from zibalzeep.settings import Settings
 
 
 def test_huge_text():

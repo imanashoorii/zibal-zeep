@@ -3,8 +3,8 @@ from io import StringIO
 from lxml import etree
 
 from tests.utils import assert_nodes_equal, load_xml
-from zeep import xsd
-from zeep.wsdl import wsdl
+from zibalzeep import xsd
+from zibalzeep.wsdl import wsdl
 
 
 def test_parse():

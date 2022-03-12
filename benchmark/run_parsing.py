@@ -5,7 +5,7 @@ import pretend  # pip install pretend
 from lxml import etree
 from lxml.builder import ElementMaker
 
-from zeep import Client
+from zibalzeep import Client
 
 
 def build_xml(num):

@@ -6,9 +6,9 @@ import requests_mock
 from freezegun import freeze_time
 
 from tests.utils import assert_nodes_equal, load_xml
-from zeep import client
-from zeep.wsse import UsernameToken
-from zeep.wsse.utils import WSU
+from zibalzeep import client
+from zibalzeep.wsse import UsernameToken
+from zibalzeep.wsse.utils import WSU
 
 
 @pytest.mark.requests

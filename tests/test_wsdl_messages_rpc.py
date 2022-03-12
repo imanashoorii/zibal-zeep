@@ -2,7 +2,7 @@ import io
 from io import StringIO
 
 from tests.utils import DummyTransport, assert_nodes_equal, load_xml
-from zeep.wsdl import wsdl
+from zibalzeep.wsdl import wsdl
 
 
 def test_serialize():

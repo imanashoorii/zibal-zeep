@@ -2,7 +2,7 @@ from unittest.mock import patch
 
 from pretend import stub
 
-from zeep import __main__, client
+from zibalzeep import __main__, client
 
 
 def test_main_no_args(monkeypatch):

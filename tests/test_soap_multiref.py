@@ -3,8 +3,8 @@ import io
 import pytest
 from pretend import stub
 
-from zeep import Client
-from zeep.transports import Transport
+from zibalzeep import Client
+from zibalzeep.transports import Transport
 
 
 @pytest.mark.requests

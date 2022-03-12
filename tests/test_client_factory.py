@@ -1,6 +1,6 @@
 import pytest
 
-from zeep import Client
+from zibalzeep import Client
 
 
 def test_factory_namespace():

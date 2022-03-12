@@ -6,9 +6,9 @@ from lxml import etree
 from pretend import stub
 
 from tests.utils import load_xml
-from zeep import Client
-from zeep.exceptions import Fault, TransportError
-from zeep.wsdl import bindings
+from zibalzeep import Client
+from zibalzeep.exceptions import Fault, TransportError
+from zibalzeep.wsdl import bindings
 
 
 def test_soap11_no_output():

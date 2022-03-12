@@ -3,7 +3,7 @@ import datetime
 import freezegun
 import pytest
 
-from zeep import cache
+from zibalzeep import cache
 
 
 def test_base_add():

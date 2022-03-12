@@ -1,6 +1,6 @@
 import pytest
 
-from zeep import AsyncClient
+from zibalzeep import AsyncClient
 
 
 @pytest.mark.requests

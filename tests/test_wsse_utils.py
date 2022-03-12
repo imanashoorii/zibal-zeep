@@ -1,6 +1,6 @@
 from lxml import etree
 
-from zeep.wsse import utils
+from zibalzeep.wsse import utils
 
 
 def test_get_security_header():

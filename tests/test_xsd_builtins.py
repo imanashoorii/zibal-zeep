@@ -5,7 +5,7 @@ import isodate
 import pytest
 import pytz
 
-from zeep.xsd.types import builtins
+from zibalzeep.xsd.types import builtins
 
 
 class TestString:

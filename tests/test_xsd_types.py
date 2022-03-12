@@ -5,7 +5,7 @@ import isodate
 import pytest
 from lxml import etree
 
-from zeep.xsd import types
+from zibalzeep.xsd import types
 
 
 def test_base_type():

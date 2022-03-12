@@ -1,4 +1,4 @@
-from zeep.settings import Settings
+from zibalzeep.settings import Settings
 
 
 def test_settings_set_context_raw_response():

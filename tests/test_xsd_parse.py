@@ -4,8 +4,8 @@ import pytest
 from lxml import etree
 
 from tests.utils import load_xml
-from zeep import exceptions, xsd
-from zeep.xsd.schema import Schema
+from zibalzeep import exceptions, xsd
+from zibalzeep.xsd.schema import Schema
 
 
 def test_sequence_parse_regression():

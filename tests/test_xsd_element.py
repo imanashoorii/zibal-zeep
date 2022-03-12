@@ -1,7 +1,7 @@
 from lxml import etree
 
 from tests.utils import load_xml
-from zeep import xsd
+from zibalzeep import xsd
 
 
 def test_parse_xmlelements_mismatching_namespace():

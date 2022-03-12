@@ -5,7 +5,7 @@ import pytest
 import requests_mock
 from pretend import stub
 
-from zeep import cache, transports
+from zibalzeep import cache, transports
 
 
 @pytest.mark.requests

@@ -4,9 +4,9 @@ import pytest
 from lxml import etree
 
 from tests.utils import DummyTransport, assert_nodes_equal, load_xml, render_node
-from zeep import exceptions, xsd
-from zeep.xsd import Schema
-from zeep.xsd.types.unresolved import UnresolvedType
+from zibalzeep import exceptions, xsd
+from zibalzeep.xsd import Schema
+from zibalzeep.xsd.types.unresolved import UnresolvedType
 
 
 def test_default_types():

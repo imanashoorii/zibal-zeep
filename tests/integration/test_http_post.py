@@ -3,14 +3,14 @@ import os
 import pytest
 import requests_mock
 
-import zeep
+import zibalzeep
 
 WSDL = os.path.join(os.path.dirname(__file__), "test_http_post.wsdl")
 
 
 @pytest.mark.requests
 def test_get_urlreplacement():
-    client = zeep.Client(WSDL)
+    client = zibalzeep.Client(WSDL)
 
     with requests_mock.mock() as m:
         m.get("http://example.com/companyinfo/o1/EUR/", text="<root>Hoi</root>")
@@ -23,7 +23,7 @@ def test_get_urlreplacement():
 
 @pytest.mark.requests
 def test_post_mime_content():
-    client = zeep.Client(WSDL, service_name="CompanyInfoService", port_name="Port3")
+    client = zibalzeep.Client(WSDL, service_name="CompanyInfoService", port_name="Port3")
 
     with requests_mock.mock() as m:
         m.post("http://example.com/companyinfo/o1", text="<root>Hoi</root>")
