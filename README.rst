@@ -1,5 +1,5 @@
 ========================
-Zeep: Python SOAP client
+Zibal Zeep: Python SOAP client Fixed for Mellat Bank ( SignatureVerificationFailed )
 ========================
 
 A fast and modern Python SOAP client
@@ -40,11 +40,9 @@ Status
 Installation
 ------------
 
-.. code-block:: bash
+Add this line to your requirement.txt file :
 
-    pip install zeep
-
-Note that the latest version to support Python 2.7, 3.3, 3.4 and 3.5 is Zeep 3.4, install via `pip install zeep==3.4.0`
+    git+https://github.com/imanashoorii/zibal-zeep.git
 
 Zeep uses the lxml library for parsing xml. See https://lxml.de/installation.html for the installation requirements.
 
@@ -52,7 +50,7 @@ Usage
 -----
 .. code-block:: python
 
-    from zeep import Client
+    from zibalzeep import Client
 
     client = Client('tests/wsdl_files/example.rst')
     client.service.ping()
@@ -60,7 +58,7 @@ Usage
 
 To quickly inspect a WSDL file use::
 
-    python -m zeep <url-to-wsdl>
+    python -m zibalzeep <url-to-wsdl>
 
 
 Please see the documentation at http://docs.python-zeep.org for more
@@ -72,5 +70,3 @@ Support
 
 If you want to report a bug then please first read
 http://docs.python-zeep.org/en/master/reporting_bugs.html
-
-Please only report bugs and not support requests to the GitHub issue tracker.
